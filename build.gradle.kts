@@ -11,7 +11,7 @@ plugins {
     alias(libs.plugins.changelog) // Gradle Changelog Plugin
     alias(libs.plugins.qodana) // Gradle Qodana Plugin
     alias(libs.plugins.kover) // Gradle Kover Plugin
-    id("com.ncorti.ktfmt.gradle") version "0.13.0"
+    id("com.ncorti.ktfmt.gradle") version "0.15.0"
 }
 
 group = properties("pluginGroup").get()
